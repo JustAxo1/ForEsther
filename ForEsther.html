@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Esther</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-image: url('https://i.pinimg.com/originals/ea/d2/cb/ead2cb3a7928aa36933d75e0d9aeb51a.gif');
+      background-size: cover;      
+      background-repeat: no-repeat;
+      background-position: center; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #ffffff;
+      text-shadow: 0 0 4px rgba(255,255,255,0.6), 
+                   0 0 10px rgba(255,255,255,0.4);
+      animation: softglow 3s infinite alternate ease-in-out;
+      margin: 0 20px 15px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #fff;
+      text-shadow: 0 0 4px rgba(0,0,0,0.7);
+      margin: 0 20px;
+    }
+
+    @keyframes softglow {
+      from {
+        text-shadow: 0 0 4px rgba(255,255,255,0.6),
+                     0 0 10px rgba(255,255,255,0.4);
+      }
+      to {
+        text-shadow: 0 0 6px rgba(255,255,255,0.8),
+                     0 0 14px rgba(255,255,255,0.6);
+      }
+    }
+
+    /* Sembunyikan player */
+    audio {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pagi Esther semangat buat PKL-nya hari ini ya 😁😁😁</h1>
+  <h2>Esther, kalau kamu lagi bosen boleh kasih pertanyaan random ke aku yaaa hehe #by_utin</h2>
+
+
+  <audio autoplay loop>
+    <source src="RewriteTheStars.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+</body>
+</html>
